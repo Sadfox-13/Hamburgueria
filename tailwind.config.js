@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage:{
-        "home": "url('/Hamburgueria/assets/bg.png')"
+        "home": "url('/Hamburgueria1/assets/bg.png')"
       },
     },
   },
