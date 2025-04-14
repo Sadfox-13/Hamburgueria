@@ -61,7 +61,7 @@ function addToCart(name, price) {
         duration: 3000,
         close: false,
         gravity: "bottom",
-        position: "center",
+        position: "top",
         stopOnFocus: true,
         style:{
             background: "black",
@@ -81,7 +81,7 @@ function updateCartModal() {
 
     cart.forEach(item => {
         const cartItemElement = document.createElement("div");
-        cartItemElement.classList.add("flex", "justify-between", "mb-4", "flex-col")
+        cartItemElement.classList.add("flex", "justify-between", "mb-0", "flex-col")
         cartItemElement.innerHTML = `
         <div class="flex items-center justify-between">
             <div>
@@ -204,7 +204,7 @@ const isOpen = checkRestaurantOpen()
 
 if(isOpen){
     spanItem.classList.remove("bg-red-500")
-    spanItem.classList.add(bg-green-600)
+    spanItem.classList.add("bg-green-600")
     
     
 }else{
