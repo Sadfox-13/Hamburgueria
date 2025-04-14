@@ -57,7 +57,7 @@ function addToCart(name, price) {
         })
     }
     Toastify({
-        text: "Item adcionado ao carrinho",
+        text: "Adcionado ao carrinho",
         duration: 3000,
         close: false,
         gravity: "bottom",
@@ -66,6 +66,7 @@ function addToCart(name, price) {
         style:{
             background: "black",
             height: "50px",
+            
             
             
             
@@ -81,7 +82,7 @@ function updateCartModal() {
 
     cart.forEach(item => {
         const cartItemElement = document.createElement("div");
-        cartItemElement.classList.add("flex", "justify-between", "mb-0", "flex-col")
+        cartItemElement.classList.add("flex", "justify-between", "mb-[0%]", "flex-col" ,"text-xs" )
         cartItemElement.innerHTML = `
         <div class="flex items-center justify-between">
             <div>
