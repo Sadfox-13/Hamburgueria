@@ -28,7 +28,7 @@
             <span class="text-white font-medium">Rua Ilha Bela , Carapicuíba-SP</span>
 
             <div class="bg-green-600 px-4 py-1 rounded-lg font-bold mt-5" id="date-span">
-                <span class="text-white font-medium">Seg á Dom - 18:00 as 22:00</span>
+                <span class="text-white font-medium">Seg á Dom - 10:30 as 16:30</span>
             </div>
         </div>
     </header>
@@ -118,7 +118,7 @@
             <!--FIM PRODUTO ITEM-->
         </main>
             <!--Matinais-->
-        <div class="mx-auto max-w-7xl px-2 my-2">
+        <div class="mx-auto max-w-7xl px-2 my-2  flex justify-center">
             <h2 class="font-bold text-3xl">Matinais</h2>
         </div>
 
@@ -164,15 +164,15 @@
         </div>
 
         <!--FIM GRID MATINAIS-->
-            <!--Matinais-->
-            <div class="mx-auto max-w-7xl px-2 my-2">
+            <!--Bebidas-->
+            <div class="mx-auto max-w-7xl px-2 my-2 flex justify-center">
                 <h2 class="font-bold text-3xl">Bebidas</h2>
             </div>
     
-            <!--GRID MATINAIS-->
+            <!--GRID Bebidas-->
     
             <div class="grid grid-cols-1 md:grid-cols-2  gap-7 md:gap-10 mx-auto max-w-7xl  px-2 mb-16" id="menu">
-                <!--MATINAIS ITEM-->
+                <!--Bebidas ITEM-->
                 <div class="flex gap-2 w-full">
                     <img src="./assets/Shake.jpg" alt="ERROR"
                         class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
@@ -190,7 +190,7 @@
                         </div>
                     </div>
                 </div>
-                <!--FIM MATINAIS ITEM-->
+                <!--FIM Bebidas ITEM-->
                  <!--MATINAIS ITEM-->
                  <div class="flex gap-2 w-full ">
                     <img src="./assets/Detox.jpg" alt="ERROR"
@@ -208,10 +208,65 @@
                         </div>
                     </div>
                 </div>
-                <!--FIM MATINAIS ITEM-->
+                <!--FIM Bebidas ITEM-->
             </div>
     
-            <!--FIM GRID MATINAIS-->
+            <!--FIM GRID Bebidas-->
+
+
+
+
+
+             <!--Combos-->
+             <div class="mx-auto max-w-7xl px-2 my-2 flex justify-center">
+                <h2 class="font-bold text-3xl">Combos</h2>
+            </div>
+    
+            <!--GRID Combos-->
+    
+            <div class="grid grid-cols-1 md:grid-cols-2  gap-7 md:gap-10 mx-auto max-w-7xl  px-2 mb-16" id="menu">
+                <!--Combos ITEM-->
+                <div class="flex gap-2 w-full">
+                    <img src="./assets/Combo1.jpg" alt="ERROR"
+                        class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300 -rotate-90">
+    
+                    <div class="w-full ml-2">
+                        <p class="font-bold">KitFit</p>
+                        <p class="text-sm">(2 lanches de frango e um suco 200ml)</p>
+    
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            <p class="font-bold text-lg">R$50.00</p>
+                            <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="KitFit"
+                                data-price="50.00">
+                                <i class="fa fa-cart-plus text-lg text-white"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--FIM Combos ITEM-->
+                 <!--Combos ITEM-->
+                 <div class="flex gap-2 w-full ">
+                    <img src="./assets/embreve.jpg" alt="ERROR"
+                        class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+    
+                    <div class="w-full">
+                        <p class="font-bold">KitFit 2</p>
+    
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            <p class="font-bold text-lg">R$00.00</p>
+                            <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name=""
+                                data-price="">
+                                <i class="fa fa-cart-plus text-lg text-white"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--FIM Combos ITEM-->
+            </div>
+    
+            <!--FIM Grid Combos-->
     </div>
     <!--FIM MENU-->
 
@@ -228,7 +283,7 @@
 
             <p class="font-bold">Total <span id="cart-total">0.00</span></p>
 
-            <p class="font-bold mt-4">Endereço de entrega</p>
+            <p class="font-bold mt-4">Endereço de entrega- <strong class="text-red-600">Entrega acima de R$28,00 reais por pedido</strong> </p>
             <input type="text" name="" id="address" placeholder="Digite seu Endereço" class="w-full border-2 p-1 rounded my-1">
             <p class="text-red-500 hidden font-bold" id="address-warn">Digite seu endereço completo</p>
 
