@@ -5,17 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <meta property="og:type" content="website"/>
-    <meta property="og:title" content="7KING - O melhor da Região"/>
-    <meta property="og:image" content="https://hamburgueria-eta-five.vercel.app/assets/Imagem%20do%20WhatsApp%20de%202025-04-13%20à(s)%2016.32.53_513d5180.jpg"/>
-    <meta property="og:description" content="O melhor hamburguer caseiro da atualidade"/>
-    <meta property="og:site_name" content="7KING"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="7KING - O melhor da Região" />
+    <meta property="og:image"
+        content="https://hamburgueria-eta-five.vercel.app/assets/Imagem%20do%20WhatsApp%20de%202025-04-13%20à(s)%2016.32.53_513d5180.jpg" />
+    <meta property="og:description" content="O melhor hamburguer caseiro da atualidade" />
+    <meta property="og:site_name" content="7KING" />
     <link rel="stylesheet" href="./styles/output.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -28,26 +33,51 @@
             <span class="text-white font-medium">Rua Ilha Bela , Carapicuíba-SP</span>
 
             <div class="bg-green-600 px-4 py-1 rounded-lg font-bold mt-5" id="date-span">
-                <span class="text-white font-medium">Seg á Dom - 10:30 as 16:30</span>
+                <span class="text-white font-medium">Seg á Sex - 10:30 as 16:30</span>
             </div>
         </div>
     </header>
     <!--FIM HEADER-->
 
     <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">Conheça nosso menu</h2>
+    <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">Baguetes</h2>
 
     <!--INICIO MENU-->
     <div id="menu">
 
         <main class="grid grid-cols-1 md:grid-cols-2  gap-7 md:gap-10 mx-auto max-w-7xl  px-2 mb-16">
+
+
+            <!--PRODUTO ITEM-->
+            <div class="flex gap-2 w-full">
+                <img src="./assets/embreve.jpg" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold">Baguete de frango</p>
+                    <p class="text-sm">Alface americana,Tomate,Pepino,Limão</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$00.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Lanche Atum"
+                            data-price="00.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO ITEM-->
+
+
             <!--PRODUTO ITEM-->
             <div class="flex gap-2 w-full">
                 <img src="./assets/Atum.jpg" alt="ERROR"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
 
                 <div class="w-full">
-                    <p class="font-bold">Lanche Atum</p>
-                    <p class="text-sm">Descriçao do hamburguer</p>
+                    <p class="font-bold">Baguete de Atum</p>
+                    <p class="text-sm">Alface americana, Cebola, Pepino, Limão, Azeitona</p>
 
                     <div class="flex items-center gap-2 justify-between mt-3">
                         <p class="font-bold text-lg">R$10.00</p>
@@ -55,41 +85,54 @@
                             data-price="10.00">
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
+
                     </div>
                 </div>
             </div>
             <!--FIM PRODUTO ITEM-->
+
             <!--PRODUTO ITEM-->
+            <div class="flex gap-2 w-full">
+                <img src="./assets/embreve.jpg" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold">Baguete de Beringela</p>
+                    <p class="text-sm">(Sem Descriçao)</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$10.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Lanche Atum"
+                            data-price="10.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO ITEM-->
+
+
+           
+        </main>
+
+        <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+        <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">Lanches</h2>
+        <main class="grid grid-cols-1 md:grid-cols-2  gap-7 md:gap-10 mx-auto max-w-7xl  px-2 mb-16">
+
+            <!--Lanche ITEM-->
             <div class="flex gap-2 w-full ">
                 <img src="./assets/Frango.jpg" alt="ERROR"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
 
                 <div class="w-full">
-                    <p class="font-bold">Lanche Frango</p>
-                    <p class="text-sm">Descriçao do hamburguer</p>
-
-                    <div class="flex items-center gap-2 justify-between mt-3">
-                        <p class="font-bold text-lg">R$20.00</p>
-                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Lanche Frango"
-                            data-price="20.00">
-                            <i class="fa fa-cart-plus text-lg text-white"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <!--FIM PRODUTO ITEM-->
-            <!--PRODUTO ITEM-->
-            <div class="flex gap-2 w-full ">
-                <img src="./assets/Salada.jpg" alt="ERROR"
-                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
-
-                <div class="w-full">
-                    <p class="font-bold">Salada Fina</p>
-                    <p class="text-sm">(Mix de salada)+(Tempero artesanal)</p>
+                    <p class="font-bold">Lanche de Frango</p>
+                    <p class="text-sm">Alface, Cenoura, Pepido, Limão, Requeijão</p>
 
                     <div class="flex items-center gap-2 justify-between mt-3">
                         <p class="font-bold text-lg">R$30.00</p>
-                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Salada Fina"
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Lanche de frango"
                             data-price="30.00">
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
@@ -97,19 +140,20 @@
                 </div>
             </div>
             <!--FIM PRODUTO ITEM-->
+
             <!--PRODUTO ITEM-->
             <div class="flex gap-2 w-full">
-                <img src="./assets/Tapioca.jpg" alt="ERROR"
+                <img src="./assets/embreve.jpg" alt="ERROR"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
 
                 <div class="w-full">
-                    <p class="font-bold">Tapioca slim</p>
-                    <p class="text-sm">Descriçao do hamburguer</p>
+                    <p class="font-bold">Lanche de Atum</p>
+                    <p class="text-sm">Cenoura, Pepino, Ricota, Cebola</p>
 
                     <div class="flex items-center gap-2 justify-between mt-3">
-                        <p class="font-bold text-lg">R$40.00</p>
+                        <p class="font-bold text-lg">R$00.00</p>
                         <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Tapioca Slim"
-                            data-price="40.00">
+                            data-price="00.00">
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
                     </div>
@@ -117,7 +161,181 @@
             </div>
             <!--FIM PRODUTO ITEM-->
         </main>
-            <!--Matinais-->
+
+
+        <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">Completos</h2>
+        <main class="grid grid-cols-1 md:grid-cols-2  gap-7 md:gap-10 mx-auto max-w-7xl  px-2 mb-16">
+
+            <!--Lanche ITEM-->
+            <div class="flex gap-2 w-full ">
+                <img src="./assets/embreve.jpg" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold">Completo 01</p>
+                    <p class="text-sm">Baguete de Frango + SucoTaff 200ml</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$00.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Completo 01-Frango"
+                            data-price="00.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO ITEM-->
+
+            <!--PRODUTO ITEM-->
+            <div class="flex gap-2 w-full">
+                <img src="./assets/embreve.jpg" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold">Completo 02</p>
+                    <p class="text-sm">Baguete de Atum + SucoTaff200ml</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$00.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Tapioca Slim"
+                            data-price="00.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO ITEM-->
+        </main>
+        <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">Sucos Taff/Açaí</h2>
+        <main class="grid grid-cols-1 md:grid-cols-2  gap-7 md:gap-10 mx-auto max-w-7xl  px-2 mb-16">
+
+            <!--Lanche ITEM-->
+            <div class="flex gap-2 w-full ">
+                <img src="./assets/embreve.jpg" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold">Sucos Diversos</p>
+                    <p class="text-sm">polpa, Taffren, Agua</p>
+                    <p class="font-bold text-lg">R$00.00</p>
+
+                    <div class="flex items-center flex-col gap-2 justify-between mt-0.5">
+                        <button class="bg-gray-900 text-white px-5 rounded add-to-cart-btn" name="Morango"
+                            data-name="Suco de Morango 500ml" data-price="00.00"><input type="radio" name="Morango">
+                            Morango <i class="fa fa-cart-plus text-lg text-white"></i></button>
+                        <button class="bg-gray-900 text-white px-5 rounded add-to-cart-btn"
+                            data-name="Suco de Acerola 500ml" data-price="00.00"><input type="radio" name="Acerola">
+                            Acerola <i class="fa fa-cart-plus text-lg text-white"></i></button>
+                        <button class="bg-gray-900 text-white px-5 rounded add-to-cart-btn"
+                            data-name="Suco de Maracuja 500ml" data-price="00.00"><input type="radio" name="Maracuja">
+                            Maracuja <i class="fa fa-cart-plus text-lg text-white"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO ITEM-->
+
+            <!--PRODUTO ITEM-->
+
+            <div class="flex gap-2 w-full">
+                <img src="./assets/embreve.jpg" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold">Açai</p>
+                    <p class="text-sm">Banana, Leite em pó, Granola</p>
+                    <div class="flex items-center flex-col gap-2 justify-between mt-0">
+                        <button class="bg-gray-900 text-white px-5 rounded add-to-cart-btn" data-name="Açai de 300ml"
+                            data-price="00.00"><input type="radio" name="Acerola"> R$00.00 300ml <i
+                                class="fa fa-cart-plus text-lg text-white"></i></button>
+                        <button class="bg-gray-900 text-white px-5 rounded add-to-cart-btn" data-name="Açai de 500ml"
+                            data-price="00.00"><input type="radio" name="Maracuja"> R$00.00 500ml <i
+                                class="fa fa-cart-plus text-lg text-white"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO ITEM-->
+            <br>
+            <!--PRODUTO ITEM-->
+
+            <div class="flex gap-2 w-full">
+                <img src="./assets/embreve.jpg" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold">Açai Puro</p>
+                    <p class="text-sm">Banana, Leite em pó, Granola , 500ml</p>
+                    <p class="font-bold text-lg">R$00.00</p>
+                    <div class="flex items-center flex-col gap-2 justify-between mt-0">
+                        <button class="bg-gray-900 text-white px-5 rounded add-to-cart-btn"
+                            data-name="Açai Puro de 500ml" data-price="00.00"> <i
+                                class="fa fa-cart-plus text-lg text-white"></i></button>
+
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO ITEM-->
+        </main>
+        
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+        <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">Saladas</h2>
+        <main class="grid grid-cols-1 md:grid-cols-2  gap-7 md:gap-10 mx-auto max-w-7xl  px-2 mb-16">
+
+            <!--Lanche ITEM-->
+            <div class="flex gap-2 w-full ">
+                <img src="./assets/embreve.jpg" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold">Salada Grande + Frango</p>
+                    <p class="text-sm">Mix de saladas frescas</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$16.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Salada Grande + Frango"
+                            data-price="16.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO ITEM-->
+
+        </main>
+        <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">Tapiocas</h2>
+        <main class="grid grid-cols-1 md:grid-cols-2  gap-7 justify-center content-center md:gap-10 mx-auto max-w-7xl    px-2 mb-16">
+
+             <!--PRODUTO ITEM-->
+             <div class="flex gap-5 w-full justify-center ">
+                <img src="./assets/Tapioca.jpg" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300 flex ml-2">
+
+                    <div class="w-full">
+                        <p class="font-bold">Tapioca slim</p>
+                        <p class="text-sm"></p>
+                        <p class="font-bold text-lg">R$16.00</p>
+
+                    <div class="flex items-center flex-col gap-2 justify-between mt-3 ">
+                        <button class="bg-gray-900 text-white px-5 rounded add-to-cart-btn" name="Morango"
+                            data-name="Frango e Queijo" data-price="00.00"><input type="radio" name="Morango">
+                            Frango e Queijo <i class="fa fa-cart-plus text-lg text-white"></i></button>
+                        <button class="bg-gray-900 text-white px-5 rounded add-to-cart-btn"
+                            data-name="Atum e Ricota" data-price="00.00"><input type="radio" name="Acerola">
+                            Atum e Ricota <i class="fa fa-cart-plus text-lg text-white"></i></button>
+                        <button class="bg-gray-900 text-white px-5 rounded add-to-cart-btn"
+                            data-name="Doce de leite(Light)" data-price="00.00"><input type="radio" name="Maracuja">
+                            Doce de leite(Light) <i class="fa fa-cart-plus text-lg text-white"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!--FIM PRODUTO ITEM-->
+
+        </main>
+        <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <!--Matinais-->
         <div class="mx-auto max-w-7xl px-2 my-2  flex justify-center">
             <h2 class="font-bold text-3xl">Matinais</h2>
         </div>
@@ -143,8 +361,8 @@
                 </div>
             </div>
             <!--FIM MATINAIS ITEM-->
-             <!--MATINAIS ITEM-->
-             <div class="flex gap-2 w-full ">
+            <!--MATINAIS ITEM-->
+            <div class="flex gap-2 w-full ">
                 <img src="./assets/Ball.jpg" alt="ERROR"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
 
@@ -162,120 +380,123 @@
             </div>
             <!--FIM MATINAIS ITEM-->
         </div>
+        
 
         <!--FIM GRID MATINAIS-->
-            <!--Bebidas-->
-            <div class="mx-auto max-w-7xl px-2 my-2 flex justify-center">
-                <h2 class="font-bold text-3xl">Bebidas</h2>
-            </div>
-    
-            <!--GRID Bebidas-->
-    
-            <div class="grid grid-cols-1 md:grid-cols-2  gap-7 md:gap-10 mx-auto max-w-7xl  px-2 mb-16" id="menu">
-                <!--Bebidas ITEM-->
-                <div class="flex gap-2 w-full">
-                    <img src="./assets/Shake.jpg" alt="ERROR"
-                        class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
-    
-                    <div class="w-full">
-                        <p class="font-bold">Shake anabolking </p>
-                        <p class="text-sm">(Vitamina Pre-treino)</p>
-    
-                        <div class="flex items-center gap-2 justify-between mt-3">
-                            <p class="font-bold text-lg">R$50.00</p>
-                            <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Shake anabolking"
-                                data-price="50.00">
-                                <i class="fa fa-cart-plus text-lg text-white"></i>
-                            </button>
-                        </div>
+
+        <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+        <!--Bebidas-->
+        <div class="mx-auto max-w-7xl px-2 my-2 flex justify-center">
+            <h2 class="font-bold text-3xl">Bebidas</h2>
+        </div>
+
+        <!--GRID Bebidas-->
+
+        <div class="grid grid-cols-1 md:grid-cols-2  gap-7 md:gap-10 mx-auto max-w-7xl  px-2 mb-16" id="menu">
+            <!--Bebidas ITEM-->
+            <div class="flex gap-2 w-full">
+                <img src="./assets/Shake.jpg" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold">Shake anabolking </p>
+                    <p class="text-sm">(Vitamina Pre-treino)</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$50.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Shake anabolking"
+                            data-price="50.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
                     </div>
                 </div>
-                <!--FIM Bebidas ITEM-->
-                 <!--MATINAIS ITEM-->
-                 <div class="flex gap-2 w-full ">
-                    <img src="./assets/Detox.jpg" alt="ERROR"
-                        class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
-    
-                    <div class="w-full">
-                        <p class="font-bold">Suco Detox King 200ml</p>
-    
-                        <div class="flex items-center gap-2 justify-between mt-3">
-                            <p class="font-bold text-lg">R$60.00</p>
-                            <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Suco Detox King 200ml"
-                                data-price="60.00">
-                                <i class="fa fa-cart-plus text-lg text-white"></i>
-                            </button>
-                        </div>
+            </div>
+            <!--FIM Bebidas ITEM-->
+            <!--MATINAIS ITEM-->
+            <div class="flex gap-2 w-full ">
+                <img src="./assets/Detox.jpg" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold">Suco Detox King 200ml</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$60.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Suco Detox King 200ml"
+                            data-price="60.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
                     </div>
                 </div>
-                <!--FIM Bebidas ITEM-->
             </div>
-    
-            <!--FIM GRID Bebidas-->
+            <!--FIM Bebidas ITEM-->
+        </div>
+
+        <!--FIM GRID Bebidas-->
+
+        <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 
 
+        <!--Combos-->
+        <div class="mx-auto max-w-7xl px-2 my-2 flex justify-center">
+            <h2 class="font-bold text-3xl">Combos</h2>
+        </div>
 
+        <!--GRID Combos-->
 
-             <!--Combos-->
-             <div class="mx-auto max-w-7xl px-2 my-2 flex justify-center">
-                <h2 class="font-bold text-3xl">Combos</h2>
-            </div>
-    
-            <!--GRID Combos-->
-    
-            <div class="grid grid-cols-1 md:grid-cols-2  gap-7 md:gap-10 mx-auto max-w-7xl  px-2 mb-16" id="menu">
-                <!--Combos ITEM-->
-                <div class="flex gap-2 w-full">
-                    <img src="./assets/Combo1.jpg" alt="ERROR"
-                        class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300 -rotate-90">
-    
-                    <div class="w-full ml-2">
-                        <p class="font-bold">KitFit</p>
-                        <p class="text-sm">(2 lanches de frango e um suco 200ml)</p>
-    
-                        <div class="flex items-center gap-2 justify-between mt-3">
-                            <p class="font-bold text-lg">R$50.00</p>
-                            <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="KitFit"
-                                data-price="50.00">
-                                <i class="fa fa-cart-plus text-lg text-white"></i>
-                            </button>
-                        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2  gap-7 md:gap-10 mx-auto max-w-7xl  px-2 mb-16" id="menu">
+            <!--Combos ITEM-->
+            <div class="flex gap-2 w-full">
+                <img src="./assets/Combo1.jpg" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300 -rotate-90">
+
+                <div class="w-full ml-2">
+                    <p class="font-bold">KitFit</p>
+                    <p class="text-sm">(2 lanches de frango e um suco 200ml)</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$50.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="KitFit" data-price="50.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
                     </div>
                 </div>
+            </div>
 
-                <!--FIM Combos ITEM-->
-                 <!--Combos ITEM-->
-                 <div class="flex gap-2 w-full ">
-                    <img src="./assets/embreve.jpg" alt="ERROR"
-                        class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
-    
-                    <div class="w-full">
-                        <p class="font-bold">KitFit 2</p>
-    
-                        <div class="flex items-center gap-2 justify-between mt-3">
-                            <p class="font-bold text-lg">R$00.00</p>
-                            <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name=""
-                                data-price="">
-                                <i class="fa fa-cart-plus text-lg text-white"></i>
-                            </button>
-                        </div>
+            <!--FIM Combos ITEM-->
+            <!--Combos ITEM-->
+            <div class="flex gap-2 w-full ">
+                <img src="./assets/embreve.jpg" alt="ERROR"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300">
+
+                <div class="w-full">
+                    <p class="font-bold">KitFit 2</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$00.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="" data-price="">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
                     </div>
                 </div>
-
-                <!--FIM Combos ITEM-->
             </div>
-    
-            <!--FIM Grid Combos-->
+
+            <!--FIM Combos ITEM-->
+        </div>
+
+        <!--FIM Grid Combos-->
     </div>
     <!--FIM MENU-->
 
-
+    <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
     <!--MODAL CART-->
 
-    <div class="bg-black/50 w-full h-full fixed top-0 left-0 z-[99]  items-center justify-center hidden  " id="cart-modal">
-       
+    <div class="bg-black/50 w-full h-full fixed top-0 left-0 z-[99]  items-center justify-center hidden  "
+        id="cart-modal">
+
         <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
             <h2 class="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
 
@@ -283,15 +504,17 @@
 
             <p class="font-bold">Total <span id="cart-total">0.00</span></p>
 
-            <p class="font-bold mt-4">Endereço de entrega- <strong class="text-red-600">Entrega acima de R$28,00 reais por pedido</strong> </p>
-            <input type="text" name="" id="address" placeholder="Digite seu Endereço" class="w-full border-2 p-1 rounded my-1">
+            <p class="font-bold mt-4">Endereço de entrega- <strong class="text-red-600">Entrega acima de R$28,00 reais
+                    por pedido</strong> </p>
+            <input type="text" name="" id="address" placeholder="Digite seu Endereço"
+                class="w-full border-2 p-1 rounded my-1">
             <p class="text-red-500 hidden font-bold" id="address-warn">Digite seu endereço completo</p>
 
             <div class="flex items-center justify-between mt-5 w-full">
                 <button id="close-modal-btn">Fechar</button>
                 <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar pedido</button>
             </div>
-        
+
         </div>
     </div>
 
